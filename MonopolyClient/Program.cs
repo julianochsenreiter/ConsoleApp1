@@ -11,7 +11,7 @@ namespace MonopolyClient
     {
         static void Main(string[] args)
         {
-            var client = new MonopolyServiceClient();
+            var client = new MonopolyServiceClient("WSHttpBinding_IMonopolyService");
             client.GoToJail();
             Console.ReadLine();
             client.Close();
