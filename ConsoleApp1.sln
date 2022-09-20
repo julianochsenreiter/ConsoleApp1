@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary", "ServiceLibrary\ServiceLibrary.csproj", "{66C3D010-ADF0-413E-B7E4-E5775D837F3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyClient", "MonopolyClient\MonopolyClient.csproj", "{2482926F-26D9-4228-BE05-5CD1E35B6D8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{66C3D010-ADF0-413E-B7E4-E5775D837F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66C3D010-ADF0-413E-B7E4-E5775D837F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C3D010-ADF0-413E-B7E4-E5775D837F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2482926F-26D9-4228-BE05-5CD1E35B6D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2482926F-26D9-4228-BE05-5CD1E35B6D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2482926F-26D9-4228-BE05-5CD1E35B6D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2482926F-26D9-4228-BE05-5CD1E35B6D8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
