@@ -12,10 +12,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            using (ServiceHost host = new ServiceHost(typeof(MonopolyService))
+            using (ServiceHost host = new ServiceHost(typeof(MonopolyService)))
             {
                 host.Open();
                 Console.WriteLine("Service is running");
+
+                foreach (var ep in host.Description.Endpoints)
+                {
+                    Console.WriteLine(ep.Address);
+                }
+
                 Console.ReadLine();
             }
         }
